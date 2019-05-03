@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.Absract
+namespace Models.Abstract
 {
-    interface IModelFilter
+    public interface IModelFilter
     {
     }
 }

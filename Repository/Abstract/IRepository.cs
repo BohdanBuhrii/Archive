@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models.Abstract;
+
 
 namespace Repository.Abstract
 {
     public interface IRepository
     {
-        bool Add(IModel model);
+        bool Add(IInformable model);
 
-        bool Delete(IModelFilter filter);
+        bool Delete(IInformable filter);
 
-        bool Update(IModelFilter filter, IModel model);
+        bool Update(IInformable filter, IInformable model);
 
-        List<object> Get(IModel fillter);
+        List<object> Get(IInformable fillter);
         
     }
 }

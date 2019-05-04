@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.Abstract
+namespace Repository.Abstract
 {
-    public interface IModelFilter
+    public interface IInformable
     {
     }
 }

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IInformable.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Concrete\Database\DocumentsRepo.cs" />
     <Compile Include="Concrete\Database\UsersRepo.cs" />

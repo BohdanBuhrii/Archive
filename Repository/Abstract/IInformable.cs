@@ -8,5 +8,8 @@ namespace Repository.Abstract
 {
     public interface IInformable
     {
+        string GetTableName();
+        string[] GetFieldsValue();
+        string[] GetFieldsName();
     }
 }

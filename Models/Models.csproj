@@ -51,5 +51,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{1f1f3140-02dd-4eae-9eb2-9445ab94e4ba}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

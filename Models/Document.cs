@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models.Abstract;
+using Repository.Abstract;
 
 namespace Models
 {
-    class Document : IModel
+    class Document : IInformable
     {
     }
 }

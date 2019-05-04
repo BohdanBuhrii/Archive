@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Repository.Abstract;
 
-namespace Repository.Concrete.Textbase
+namespace Repository.Concrete
 {
-    public class UsersRepo : IRepository
+    class FileRepository : IRepository
     {
+
     }
 }

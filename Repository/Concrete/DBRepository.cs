@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Repository.Abstract;
 
-namespace Repository.Concrete.Database
+namespace Repository.Concrete
 {
-    public class DocumentsRepo : IRepository
+    class DBRepository : IRepository
     {
     }
 }

@@ -5,14 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Models.Abstract;
 
-namespace Models
+namespace Models.Concrete
 {
-    public class User : IModel
+    public class IssuanceForm : IModel
     {
+        public string date;
+        public long document_id;
         public long user_id;
-        public string user_name;
-        public string email;
-        public string date_of_birth;
+        public bool was_returned;
     }
 }
-

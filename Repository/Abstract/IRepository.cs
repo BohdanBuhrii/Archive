@@ -13,9 +13,9 @@ namespace Repository.Abstract
 
         bool Delete(IModelFilter filter);
 
-        bool Update(IModelFilter filter, IModel model);
+        bool Update(IModelFilter filter, IModelFilter model);
 
-        List<object> Get(IModel fillter);
+        List<IModel> Get(IModelFilter fillter);
         
     }
 }

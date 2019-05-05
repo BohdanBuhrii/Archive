@@ -1,0 +1,24 @@
+﻿CREATE TABLE users
+(
+  user_id bigserial PRIMARY KEY,
+  user_name varchar(100),
+  email varchar(100) UNIQUE,
+  date_of_birth date
+);
+
+CREATE TABLE documents
+(
+  document_id bigserial PRIMARY KEY,
+  owner_id bigserial REFERENCES users(user_id),
+  type varchar(100),
+  existence boolean
+);
+
+CREATE TABLE issuanceform
+(
+  date_of_issue date,
+  document_id bigserial REFERENCES documents(document_id),
+  user_id bigserial REFERENCES users(user_id),
+  was_returned boolean
+);
+

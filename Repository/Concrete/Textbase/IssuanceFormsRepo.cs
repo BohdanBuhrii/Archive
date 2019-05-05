@@ -1,15 +1,14 @@
-﻿using System;
+﻿using Models.Abstract;
+using Repository.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models.Concrete;
-using Models.Abstract;
-using Repository.Abstract;
 
-namespace Repository.Concrete.Database
+namespace Repository.Concrete.Textbase
 {
-    public class UsersRepo : ConnectionManager, IRepository
+    class IssuanceFormsRepo : IRepository
     {
         public bool Add(IModel model)
         {

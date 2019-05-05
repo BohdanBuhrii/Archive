@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,9 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Concrete\Database\ConnectionManager.cs" />
     <Compile Include="Concrete\Database\DocumentsRepo.cs" />
+    <Compile Include="Concrete\Database\IssuanceFormsRepo.cs" />
     <Compile Include="Concrete\Database\UsersRepo.cs" />
     <Compile Include="Concrete\Textbase\DocumentsRepo.cs" />
+    <Compile Include="Concrete\Textbase\IssuanceFormsRepo.cs" />
     <Compile Include="Concrete\Textbase\UsersRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +57,9 @@
       <Project>{6b664946-0ced-47c1-8334-2db96fb7a8c7}</Project>
       <Name>Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Concrete\Database\InitialScript.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

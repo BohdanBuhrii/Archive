@@ -1,0 +1,6 @@
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\bin\Debug\Models.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\bin\Debug\Models.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\obj\Debug\Models.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Models\obj\Debug\Models.pdb

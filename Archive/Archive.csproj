@@ -72,5 +72,23 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{df4280e9-0923-47a1-898b-ba75f7f59bb9}</Project>
+      <Name>Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{6b664946-0ced-47c1-8334-2db96fb7a8c7}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{1f1f3140-02dd-4eae-9eb2-9445ab94e4ba}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\services\Services.csproj">
+      <Project>{d185f9a7-589c-4c71-95c5-fc251e26a5a4}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

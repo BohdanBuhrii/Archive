@@ -5,6 +5,7 @@
   email varchar(100) UNIQUE,
   date_of_birth date
 );
+INSERT INTO users VALUES (2,'Vasyl','vasyl@gmail.com', '2000-09-07'), (3,'Petro','petro@gmail.com', '1999-11-01')
 
 CREATE TABLE documents
 (

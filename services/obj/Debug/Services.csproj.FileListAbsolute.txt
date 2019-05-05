@@ -1,0 +1,6 @@
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\bin\Debug\services.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\bin\Debug\services.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\obj\Debug\services.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\services\obj\Debug\services.pdb

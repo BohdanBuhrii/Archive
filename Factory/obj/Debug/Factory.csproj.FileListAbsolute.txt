@@ -1,0 +1,11 @@
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Factory.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Factory.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Repository.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Models.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Repository.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\bin\Debug\Models.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\obj\Debug\Factory.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\obj\Debug\Factory.csproj.CopyComplete
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\obj\Debug\Factory.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Factory\obj\Debug\Factory.pdb

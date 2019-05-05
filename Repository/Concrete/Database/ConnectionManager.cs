@@ -91,7 +91,7 @@ namespace Repository.Concrete.Database
         {
             connection.Dispose();
             connection = factory.CreateConnection();
-            connection.ConnectionString = ConfigurationManager.ConnectionStrings["UTILITYCOMPANY"].ConnectionString;
+            connection.ConnectionString = ConfigurationManager.ConnectionStrings["ARCHIVE"].ConnectionString;
             connection.Open();
         }
     }

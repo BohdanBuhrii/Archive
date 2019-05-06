@@ -189,5 +189,27 @@ namespace Repository.Concrete.Database
 
             return result;
         }
+
+        public List<IModel> GetAll()
+        {
+            List<IModel> result = new List<IModel>();
+
+            DbDataReader reader = ExecuteReader("SELECT * FROM users");
+
+            while (reader.Read())
+            {
+                result.Add(new User
+                {
+                    user_id = (long)reader["user_id"],
+                    user_name = (string)reader["user_name"],
+                    email = (string)reader["email"],
+                    date_of_birth = (DateTime)reader["date_of_birth"]
+                });
+            }
+
+            RefreshDataReader();
+
+            return result;
+        }
     }
 }

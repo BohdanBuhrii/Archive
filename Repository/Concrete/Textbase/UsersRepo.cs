@@ -32,5 +32,12 @@ namespace Repository.Concrete.Textbase
 
             return result;
         }
+
+        public List<IModel> GetAll()
+        {
+            List<IModel> result = new List<IModel>();
+
+            return result;
+        }
     }
 }

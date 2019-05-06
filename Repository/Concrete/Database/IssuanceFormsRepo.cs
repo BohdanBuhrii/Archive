@@ -186,5 +186,28 @@ namespace Repository.Concrete.Database
 
             return result;
         }
+
+        public List<IModel> GetAll()
+        {
+            List<IModel> result = new List<IModel>();
+
+           
+            DbDataReader reader = ExecuteReader("SELECT * FROM issuanceforms");
+
+            while (reader.Read())
+            {
+                result.Add(new IssuanceForm
+                {
+                    date_of_issue = (DateTime)reader["date_of_issue"],
+                    document_id = (long)reader["document_id"],
+                    user_id = (long)reader["user_id"],
+                    was_returned = (bool)reader["was_returned"]
+                });
+            }
+
+            RefreshDataReader();
+
+            return result;
+        }
     }
 }

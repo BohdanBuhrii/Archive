@@ -191,5 +191,28 @@ namespace Repository.Concrete.Database
             
             return result;
         }
+
+        public List<IModel> GetAll()
+        {
+            List<IModel> result = new List<IModel>();
+
+            DbDataReader reader = ExecuteReader("SELECT * FROM documents");
+
+            while (reader.Read())
+            {
+                result.Add(new Document
+                {
+                    document_id = (long)reader["document_id"],
+                    owner_id = (long)reader["owner_id"],
+                    existence = (bool)reader["existence"],
+                    type = (string)reader["type"]
+                });
+            }
+
+
+            RefreshDataReader();
+
+            return result;
+        }
     }
 }

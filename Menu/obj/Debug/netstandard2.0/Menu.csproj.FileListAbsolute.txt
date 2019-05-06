@@ -1,0 +1,16 @@
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Menu.deps.json
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Menu.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Menu.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.csprojAssemblyReference.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.csproj.CoreCompileInputs.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.AssemblyInfoInputs.cache
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.AssemblyInfo.cs
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Factory.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Models.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Repository.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Factory.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Models.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\bin\Debug\netstandard2.0\Repository.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Menu\obj\Debug\netstandard2.0\Menu.csproj.CopyComplete

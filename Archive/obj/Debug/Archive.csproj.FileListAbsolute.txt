@@ -125,3 +125,5 @@ D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\obj\Deb
 D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\obj\Debug\Archive.csproj.CopyComplete
 D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\obj\Debug\Archive.exe
 D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\obj\Debug\Archive.pdb
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\bin\Debug\Menu.dll
+D:\USERS\Buhrii_B\C#\Навчальна практика\Archive\Archive\bin\Debug\Menu.pdb

@@ -77,6 +77,10 @@
       <Project>{df4280e9-0923-47a1-898b-ba75f7f59bb9}</Project>
       <Name>Factory</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Menu\Menu.csproj">
+      <Project>{68be6dc8-37ba-4206-ad29-341490d99c1a}</Project>
+      <Name>Menu</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{6b664946-0ced-47c1-8334-2db96fb7a8c7}</Project>
       <Name>Models</Name>

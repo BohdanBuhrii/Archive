@@ -4,6 +4,7 @@ using Models.Concrete;
 using Models.Concrete.Filters;
 using Repository.Concrete.Database;
 using System;
+using Menu;
 
 namespace Archive
 {
@@ -13,7 +14,7 @@ namespace Archive
         {
             //DocumentsRepo repo = new DocumentsRepo();
             //UsersRepo userRepo = new UsersRepo();
-            IssuanceFormsRepo issuanceFormsRepo = new IssuanceFormsRepo();
+            //IssuanceFormsRepo issuanceFormsRepo = new IssuanceFormsRepo();
 
             //repo.Add(new Document { document_id=2, existence=true, owner_id=1, type="заліковка" });
             //if(repo.Delete(new DocumentFilter { owner_id = 1, type = "заліковка"})==false) Console.Write("error");
@@ -27,8 +28,11 @@ namespace Archive
             //issuanceFormsRepo.Update(
             //    new IssuanceFormFilter { date_of_issue = new DateTime(2019, 5, 5) }, new IssuanceFormFilter { was_returned = true });
             //var c=issuanceFormsRepo.Get(new IssuanceFormFilter { document_id=1, user_id=1 });
-            
+
             //Console.Read();
+
+            ConsoleMenu menu = new ConsoleMenu();
+            menu.Init();
         }
     }
 }

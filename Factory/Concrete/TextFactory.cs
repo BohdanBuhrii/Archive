@@ -20,6 +20,10 @@ namespace Factory.Concrete
             {
                 return new Repository.Concrete.Textbase.DocumentsRepo();
             }
+            else if (name == "issuanceforms")
+            {
+                return new Repository.Concrete.Textbase.IssuanceFormsRepo();
+            }
             else throw new Exception("No such repository with name " + name);
         }
     }

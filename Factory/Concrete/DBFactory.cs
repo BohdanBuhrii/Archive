@@ -13,13 +13,17 @@ namespace Factory.Concrete
         
         public IRepository GetRepository(string name)
         {
-            if (name == "Users")
+            if (name == "users")
             {
                 return new Repository.Concrete.Database.UsersRepo();
             }
-            else if (name == "Documents")
+            else if (name == "documents")
             {
                 return new Repository.Concrete.Database.DocumentsRepo();
+            }
+            else if (name == "issuanceforms")
+            {
+                return new Repository.Concrete.Database.IssuanceFormsRepo();
             }
             else throw new Exception("No such repository with name " + name);
         }

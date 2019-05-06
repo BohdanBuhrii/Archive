@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Concrete.Textbase
 {
-    class IssuanceFormsRepo : IRepository
+    public class IssuanceFormsRepo : IRepository
     {
         public bool Add(IModel model)
         {

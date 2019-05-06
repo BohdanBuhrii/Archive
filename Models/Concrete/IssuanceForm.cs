@@ -10,5 +10,11 @@ namespace Models.Concrete
         public long document_id;
         public long user_id;
         public bool was_returned;
+        public override string ToString()
+        {
+            return string.Format(
+                "date_of_issue: {0}\ndocument_id: {1}\nuser_id: {2}\nwas_returned: {3}\n",
+                date_of_issue, document_id, user_id, was_returned);
+        }
     }
 }

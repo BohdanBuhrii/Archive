@@ -7,7 +7,7 @@ using Factory.Abstract;
 
 namespace Factory.Concrete
 {
-    static class FactoryProvider
+    public static class FactoryProvider
     {
         static IFactory GetFactory(string factoryType)
         {

@@ -8,7 +8,7 @@ using Repository.Abstract;
 
 namespace Factory.Concrete
 {
-    class DBFactory : IFactory
+    public class DBFactory : IFactory
     {
         
         public IRepository GetRepository(string name)

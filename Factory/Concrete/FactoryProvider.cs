@@ -9,7 +9,7 @@ namespace Factory.Concrete
 {
     public static class FactoryProvider
     {
-        static IFactory GetFactory(string factoryType)
+        public static IFactory GetFactory(string factoryType)
         {
             if (factoryType == "DB") return new DBFactory();
             else if (factoryType == "File") return new TextFactory();
